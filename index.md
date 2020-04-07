@@ -5,7 +5,7 @@
 * [Community Feedback](#community-feedback)
 * [Developer Guide](#developer-guide)
 * [Development History](#development-history)
-* [Walkthrough videos](#walkthrough-videos)
+* [Walkthrough Videos](#walkthrough-videos)
 * [Example enhancements](#example-enhancements)
 * [Contact US](#contact-us)
 
@@ -21,7 +21,7 @@ It illustrates various technologies useful to ICS software engineering students,
 
 ## User Guide
 
-This section provides a walkthrough of the Bowfolios user interface and its capabilities.
+This section provides a walkthrough of the yUHmmy user interface and its capabilities.
 
 ### Landing Page
 ### Settings page
@@ -31,9 +31,82 @@ This section provides a walkthrough of the Bowfolios user interface and its capa
 ### Restaurant critique page
 
 ## Community Feedback
+We are interested in your experience using yUHmmy!
 
 ## Developer Guide
 
+This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
+
+### Installation
+
+First, [install Meteor](https://www.meteor.com/install).
+
+Second, visit the [yUHmmy application github page](https://github.com/yuhmmy/yuhmmy), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
+
+Third, cd into the yuhmmy/app directory and install libraries with:
+
+```
+$ meteor npm install
+```
+
+Fourth, run the system with:
+
+```
+$ meteor npm run start
+```
+
+If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).
+
+
+### Application Design
+### Data model
+## Initialization
+
+## Quality Assurance
+
+### ESLint
+
+yUHmmy includes a [.eslintrc](https://github.com/yuhmmy/yuhmmy/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+
+```
+meteor npm run lint
+```
+
+ESLint should run without generating any errors.
+
+It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
+
+### From mockup to production
+
+
 ## Development History
+
+The development process for BowFolios conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. In a nutshell:
+
+* Development consists of a sequence of Milestones.
+* Each Milestone is specified as a set of tasks.
+* Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
+* Tasks should typically consist of work that can be completed in 2-4 days.
+* The work for each task is accomplished with a git branch named "issue-XX", where XX is replaced by the issue number.
+* When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
+* The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
+
+The following sections document the development history of yUHmmy.
+
+### Milestone 1: Mockup development
+
+
+## Walkthrough Videos
+yUHmmy is intended as a model of how an ICS 314 project could be organized and executed. Here are several videos that walks you through various aspects of the system:
+
+## Example Enhancements
+
+After implementing the basic functionality, here are ideas for more advanced features:
+
+* Restaurant Suggestions based on previous orders using machine learning
+* Able to provide party hot spots based on number of people at restaurants or bars
+* Ratings and reviews for restaurants
+* Give alerts for new menu items
+* Suggest restaurants based on budgets
 
 ## Contact Us
