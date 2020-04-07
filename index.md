@@ -8,6 +8,7 @@
 * [Walkthrough Videos](#walkthrough-videos)
 * [Example enhancements](#example-enhancements)
 * [Contact US](#contact-us)
+* [Acknowledgements](#acknowledgements)
 
 ## Overview
 It is a known fact that good restaurants and bars usually have long wait times in respect to service response time, and it is also a terrible idea to keep hungry people waiting. Our mobile point of sales platform eliminates the waiting game for customers by automating the process and putting it online, so if you have a mobile device you never have to track down a waitress ever again, or awkwardly try to get the bartenders attention at Manoa Gardens. Furthermore as long as the customer has a debit card on their account they can pay for their services and tip and waitress without even reaching for their wallet. This makes the ordering process less daunting and more convenient for both patrons and the business establishment.
@@ -94,6 +95,8 @@ The development process for BowFolios conformed to [Issue Driven Project Managem
 The following sections document the development history of yUHmmy.
 
 ### Milestone 1: Mockup development
+### Milestone 2: Data model development
+### Milestone 3: Final Touches
 
 
 ## Walkthrough Videos
@@ -110,3 +113,12 @@ After implementing the basic functionality, here are ideas for more advanced fea
 * Suggest restaurants based on budgets
 
 ## Contact Us
+Meet the Team! (Sorted in alphabetical order by last name)
+[Keenan Lee](https://knolee.github.io/)
+[ZJ Lin](https://z-j-lin.github.io/)
+[Tina Loos](https://tinaloos.github.io/)
+[Spencer Young](https://spjy.github.io/)
+
+## Acknowledgements
+
+Mahalo nui loa to [Phillip Johnson](https://github.com/philipmjohnson) for the knowledge on software engineering and guidance that was provided thougout the semester, as well as documentation formatting.
