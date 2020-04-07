@@ -114,10 +114,10 @@ After implementing the basic functionality, here are ideas for more advanced fea
 
 ## Contact Us
 Meet the Team! (Sorted in alphabetical order by last name)
-[Keenan Lee](https://knolee.github.io/)
-[ZJ Lin](https://z-j-lin.github.io/)
-[Tina Loos](https://tinaloos.github.io/)
-[Spencer Young](https://spjy.github.io/)
+* [Keenan Lee](https://knolee.github.io/)
+* [ZJ Lin](https://z-j-lin.github.io/)
+* [Tina Loos](https://tinaloos.github.io/)
+* [Spencer Young](https://spjy.github.io/)
 
 ## Acknowledgements
 
