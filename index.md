@@ -32,6 +32,8 @@ The features above is intended to eliminate as much interaction between wait sta
 This section provides a walkthrough of the yUHmmy user interface and its capabilities.
 
 ### Landing Page
+The landing page is presented to users when they visit the top-level URL to the site.
+
 ### Settings page
 ### Menu page
 ### Profile page
@@ -65,8 +67,13 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 
 ### Application Design
+yUHmmy is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in yUHmmy.
+
 ### Data model
 ## Initialization
+The [config](https://github.com/bowfolios/yuhmmy/tree/master/config) directory is intended to hold settings files. The repository contains one file: config/settings.development.json.
+
+This file contains default definitions for Profiles, Projects, and Interests and the relationships between them. Consult the walkthrough video for more details.
 
 ## Quality Assurance
 
@@ -99,9 +106,13 @@ The development process for BowFolios conformed to [Issue Driven Project Managem
 The following sections document the development history of yUHmmy.
 
 ### Milestone 1: Mockup development
-### Milestone 2: Data model development
-### Milestone 3: Final Touches
+The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
 
+### Milestone 2: Data model development
+The goal of Milestone 2 was to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the yUHmmy application.
+
+### Milestone 3: Final Touches
+The goal of Milestone 3 was to clean up the code base and fix minor UI issues.
 
 ## Walkthrough Videos
 yUHmmy is intended as a model of how an ICS 314 project could be organized and executed. Here are several videos that walks you through various aspects of the system:
