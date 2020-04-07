@@ -1,3 +1,4 @@
+## yUHmmy
 ## Table of contents
 
 * [Overview](#overview)
@@ -20,8 +21,14 @@ It illustrates various technologies useful to ICS software engineering students,
 * [Semantic UI React](https://react.semantic-ui.com/) CSS Framework for UI design.
 * [Uniforms](https://uniforms.tools/) for React and Semantic UI-based form design and display.
 
-## User Guide
+### Approach
+This project is similar to grubhub such that users can order and pay for food on their mobile device and similarity ends there, the following is a list of things that make our platform great:
+* Order and have your food brought to your table eliminating multiple trips for wait staff
+* The users can set limits on spending so they don’t overspend.
+* Order drinks or request services in restaurants
+The features above is intended to eliminate as much interaction between wait staff and customer. The goal is to make the customer feel like, their food appeared in front of them magically. This also allow the restaurant to spend more of their man power moving goods since that is what makes the money.
 
+## User Guide
 This section provides a walkthrough of the yUHmmy user interface and its capabilities.
 
 ### Landing Page
@@ -35,11 +42,9 @@ This section provides a walkthrough of the yUHmmy user interface and its capabil
 We are interested in your experience using yUHmmy!
 
 ## Developer Guide
-
 This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
 
 ### Installation
-
 First, [install Meteor](https://www.meteor.com/install).
 
 Second, visit the [yUHmmy application github page](https://github.com/yuhmmy/yuhmmy), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
@@ -66,7 +71,6 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 ## Quality Assurance
 
 ### ESLint
-
 yUHmmy includes a [.eslintrc](https://github.com/yuhmmy/yuhmmy/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
 ```
@@ -113,7 +117,7 @@ After implementing the basic functionality, here are ideas for more advanced fea
 * Suggest restaurants based on budgets
 
 ## Contact Us
-Meet the Team! (Sorted in alphabetical order by last name)
+Meet the Team!
 * [Keenan Lee](https://knolee.github.io/)
 * [ZJ Lin](https://z-j-lin.github.io/)
 * [Tina Loos](https://tinaloos.github.io/)
@@ -121,4 +125,4 @@ Meet the Team! (Sorted in alphabetical order by last name)
 
 ## Acknowledgements
 
-Mahalo nui loa to [Phillip Johnson](https://github.com/philipmjohnson) for the knowledge on software engineering and guidance that was provided thougout the semester, as well as documentation formatting.
+Mahalo nui loa to [Phillip Johnson](https://github.com/philipmjohnson) for the knowledge on software engineering and guidance that was provided thoughout the semester, as well as documentation formatting.
