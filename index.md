@@ -8,7 +8,7 @@
 * [Development History](#development-history)
 * [Walkthrough Videos](#walkthrough-videos)
 * [Example enhancements](#example-enhancements)
-* [Contact US](#contact-us)
+* [About the Team](#contact-us)
 * [Acknowledgements](#acknowledgements)
 
 ## Overview
@@ -129,10 +129,72 @@ After implementing the basic functionality, here are ideas for more advanced fea
 
 ## Contact Us
 Meet the Team!
-* [Keenan Lee](https://knolee.github.io/)
-* [ZJ Lin](https://z-j-lin.github.io/)
-* [Tina Loos](https://tinaloos.github.io/)
-* [Spencer Young](https://spjy.github.io/)
+### [Keenan Lee](https://knolee.github.io/)
+
+**What do you want to get out of this final project (besides the obvious, which is a good grade for the course)? Are there any skills you want to practice or improve at through this project experience?**
+
+I would like to improve my typing speed.
+
+**What is your background? What skills can you bring to the final project?**
+
+I had no prior knowledge of web development before starting this class.
+
+**What are your time constraints? When are you available to meet? When do you plan to be able to work on the project?
+How do you prefer to be contacted? Email? Text? Slack? When do you want to be contacted? When do you not want to be contacted?**
+
+I am mostly free during the evening (after 6) on weekdays. I am available all day on weekends.
+Email, text, or discord are all ok with me
+
+### [ZJ Lin](https://z-j-lin.github.io/)
+
+**What do you want to get out of this final project (besides the obvious, which is a good grade for the course)? Are there any skills you want to practice or improve at through this project experience?**
+
+I would like to become better at finishing things early. I would like to adopt the concept of early is on time, on time is late.
+
+**What is your background? What skills can you bring to the final project?**
+
+I have some prior project management skills. I'm good at telling people to do stuff, but its not my most favorite job in the world.  I code mostly in python, I hate C or C++ but I will do it if I have to.
+
+**What are your time constraints? When are you available to meet? When do you plan to be able to work on the project?**
+
+I'm usually available at night, but sometimes I'm pressed with other homework due dates. Weekends are great for me. 
+
+**How do you prefer to be contacted? Email? Text? Slack? When do you want to be contacted? When do you not want to be contacted?**
+
+Please contact me on discord. On anything else I might unintentionally ignore you.
+
+### [Tina Loos](https://tinaloos.github.io/)
+
+**What do you want to get out of this final project (besides the obvious, which is a good grade for the course)? Are there any skills you want to practice or improve at through this project experience?**
+
+I desire to sharpen my coding skills and collaboratively work as a team to create a meaningful final project. In addition to improving my knowledge of software engineering concepts such as user interface and application design, frameworks, quality assurance, configuration and project management, and enhance my ability to deploy applications. I hope to take my understanding of the information that we learned throughout this course and apply it to our project. 
+
+**What is your background? What skills can you bring to the final project?**
+
+I am a Junior majoring in Computer Science with some previous project management skills. Through courses taken at UHM, I learned how to code in JavaScript, HTML, Java, and C/C++. Outside of this class, I worked in a team using SquareSpace (pre-built templates / drag and drop elements) to design two websites.
+
+**What are your time constraints? When are you available to meet? When do you plan to be able to work on the project?**
+
+I am available to virtually meet on the weekends and every evening during the week (except Wednesday because of my work as a ICS tutor). I plan to be able to work on this project every day, during the break times that I have between work, Zoom courses, and assignments. 
+
+**How do you prefer to be contacted? Email? Text? Slack? When do you want to be contacted? When do you not want to be contacted?**
+
+All methods of contact work for me, as I get notifications for school related messages on every medium of communication (Email, Text, Slack, Discord). You may contact me at any time.
+
+### [Spencer Young](https://spjy.github.io/)
+
+**What do you want to get out of this final project (besides the obvious, which is a good grade for the course)? Are there any skills you want to practice or improve at through this project experience?**
+
+From this project, I would like to learn about and implement user experience design and how to incorporate it into the user interface for websites. In addition, I would also like to improve my communication skills by learning to express myself succinctly and sensibly.
+
+**What is your background? What skills can you bring to the final project?**
+
+I am a senior in computer engineering attending the University of Hawaii at Manoa. I am familiar with the big picture since I have experience in both backend (creating/interfacing with middleware, APIs, databases) and frontend (HTML, CSS, JavaScript, frontend frameworks) from both self-learning projects and work.
+
+**What are your time constraints? When are you available to meet? When do you plan to be able to work on the project?
+How do you prefer to be contacted? Email? Text? Slack? When do you want to be contacted? When do you not want to be contacted?**
+
+I am for the most part available on on Tues, Thurs and the weekend and plan to work on the project those days. MWF are tight since I have a spread out schedule throughout the day. Regarding communication mediums, I prefer email, text or Discord and can be contacted any time
 
 ## Acknowledgements
 
