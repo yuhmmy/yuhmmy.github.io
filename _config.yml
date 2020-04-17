@@ -1,1 +1,13 @@
+title: yUHmmy
+description: 
+google_analytics:
+show_downloads: false
 theme: jekyll-theme-minimal
+github:
+  is_project_page: true
+  repository_url: https://github.com/yuhmmy/yuhmmy.github.io
+social:
+  type: Organization
+gems:
+  - jekyll-mentions
+  
