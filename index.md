@@ -82,7 +82,7 @@ The goal of Milestone 1 was to create a set of HTML pages providing a mockup of 
 ### Milestone 2: Data model development 
 The goal of Milestone 2 is to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the yUHmmy application.
 
-**M1 Project page, showing what  issues are to be addressed and completed:** <a href="https://github.com/yuhmmy/yuhmmy/projects/2">yUHmmy M2 Project Page</a>
+**M2 Project page, showing what issues are to be addressed and completed:** <a href="https://github.com/yuhmmy/yuhmmy/projects/2">yUHmmy M2 Project Page</a>
 
 ![](doc/M2.png)
 
