@@ -1,17 +1,19 @@
 ## yUHmmy
 ## Table of contents
-
+***
 * [Overview](#overview)
 * [User Guide](#user-guide)
-* [Community Feedback](#community-feedback)
 * [Developer Guide](#developer-guide)
 * [Development History](#development-history)
-* [Walkthrough Videos](#walkthrough-videos)
-* [Example enhancements](#example-enhancements)
-* [About the Team](#contact-us)
+* [The Developers](#contact-the-developers)
+* [About the Team](#about-us)
 * [Acknowledgements](#acknowledgements)
+* [Coming Soon](#coming-soon)
 
 ## Overview
+***
+**GitHub organization associated with this project and all of its repositories:** <a href="https://github.com/yuhmmy">yUHmmy</a>
+
 It is a known fact that good restaurants and bars usually have long wait times in respect to service response time, and it is also a terrible idea to keep hungry people waiting. Our mobile point of sales platform eliminates the waiting game for customers by automating the process and putting it online, so if you have a mobile device you never have to track down a waitress ever again, or awkwardly try to get the bartenders attention at Manoa Gardens. Furthermore as long as the customer has a debit card on their account they can pay for their services and tip and waitress without even reaching for their wallet. This makes the ordering process less daunting and more convenient for both patrons and the business establishment.
 
 It illustrates various technologies useful to ICS software engineering students, including:
@@ -22,28 +24,78 @@ It illustrates various technologies useful to ICS software engineering students,
 * [Uniforms](https://uniforms.tools/) for React and Semantic UI-based form design and display.
 
 ### Approach
-This project is similar to grubhub such that users can order and pay for food on their mobile device and similarity ends there, the following is a list of things that make our platform great:
+***
+This project is similar to GrubHub such that users can order and pay for food on their mobile device and similarity ends there, the following is a list of things that make our platform great:
 * Order and have your food brought to your table eliminating multiple trips for wait staff
 * The users can set limits on spending so they don’t overspend.
 * Order drinks or request services in restaurants
 The features above is intended to eliminate as much interaction between wait staff and customer. The goal is to make the customer feel like, their food appeared in front of them magically. This also allow the restaurant to spend more of their man power moving goods since that is what makes the money.
 
 ## User Guide
-This section provides a walkthrough of the yUHmmy user interface and its capabilities.
+***
+This section provides a walkthrough of the yUHmmy user interface and its capabilities with up-to-date screen shots showing the state of the project, Click on the titles to link to the same pages running on Galaxy!
 
-### Landing Page
-The landing page is presented to users when they visit the top-level URL to the site.
+### [Landing Page](https://yuhmmy.meteorapp.com/#/)
+The landing page is presented to users when they visit the top-level URL to the site. It is the first page that students view when they visit the site and provides an introduction to the capabilities of the site:
+![](doc/landingM1.png)
 
-### Settings page
-### Menu page
-### Profile page
-### Billing page
-### Restaurant critique page
+### [Registration Page](https://yuhmmy.meteorapp.com/#/)signup)
+The registration page is presented to users prompting new visitors to create an account on our site, in order to access the full features of our projects:
+![](doc/signupM1.png)
 
-## Community Feedback
-We are interested in your experience using yUHmmy!
+### [Login Page](https://yuhmmy.meteorapp.com/#/)signin)
+The login page is presented to users who already registered for an account, to access the site:
+![](doc/loginM1.png)
+
+### [Menu Page](https://yuhmmy.meteorapp.com/#/)menu)
+The menu page is presented to users so that they may see what food items are available for purchase, as well their prospective prices:
+![](doc/menuM1.png)
+
+### [Restaurant Order Page](https://yuhmmy.meteorapp.com/#/)order)
+The restaurant order page is presented to admins so that they may see what items have been ordered by the customers:
+![](doc/order.png)
+
+
+## Development History
+
+The development process for yUHmmy conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314s20/modules/project-management/) practices. In a nutshell:
+
+* Development consists of a sequence of Milestones.
+* Each Milestone is specified as a set of tasks.
+* Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
+* Tasks should typically consist of work that can be completed in 2-4 days.
+* The work for each task is accomplished with a git branch named "issue-XX", where XX is replaced by the issue number.
+* When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
+* The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
+
+The following sections document the development history of yUHmmy.
+
+### Milestone 1: Mockup development
+The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
+
+**Running deployment of our system on Galaxy:** <a href="https://yuhmmy.meteorapp.com/">yUHmmy on Galaxy</a>
+
+**M1 Project page, showing what issues were completed:** <a href="https://github.com/yuhmmy/yuhmmy/projects/1">yUHmmy M1 Project Page</a>
+
+![](doc/M1.png)
+
+### Milestone 2: Data model development 
+The goal of Milestone 2 is to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the yUHmmy application.
+
+**M1 Project page, showing what  issues are to be addressed and completed:** <a href="https://github.com/yuhmmy/yuhmmy/projects/2">yUHmmy M2 Project Page</a>
+
+![](doc/M2.png)
+
+## Contact The Developers
+***
+We are a team of UH Manoa students currently enrolled in ICS 314!
+* [Keenan Lee](https://knolee.github.io/)
+* [ZJ Lin](https://z-j-lin.github.io/)
+* [Tina Loos](https://tinaloos.github.io/)
+* [Spencer Young](https://spjy.github.io/)
 
 ## Developer Guide
+***
 This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
 
 ### Installation
@@ -88,36 +140,20 @@ ESLint should run without generating any errors.
 
 It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
 
-### From mockup to production
 
+### Coming Soon
+***
+#### Milestone 2: Completed
 
-## Development History
+#### Community Feedback
+We are interested in your experience using yUHmmy!
+#### Milestone 3: Final Touches
+The goal of Milestone 3 is to clean up the code base and fix minor UI issues.
 
-The development process for BowFolios conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. In a nutshell:
+#### Walkthrough Videos (Coming Soon)
+yUHmmy is intended as a model of how an ICS 314 project could be organized and executed. There will be several videos that walks you through various aspects of the system
 
-* Development consists of a sequence of Milestones.
-* Each Milestone is specified as a set of tasks.
-* Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
-* Tasks should typically consist of work that can be completed in 2-4 days.
-* The work for each task is accomplished with a git branch named "issue-XX", where XX is replaced by the issue number.
-* When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
-* The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
-
-The following sections document the development history of yUHmmy.
-
-### Milestone 1: Mockup development
-The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
-
-### Milestone 2: Data model development
-The goal of Milestone 2 was to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the yUHmmy application.
-
-### Milestone 3: Final Touches
-The goal of Milestone 3 was to clean up the code base and fix minor UI issues.
-
-## Walkthrough Videos
-yUHmmy is intended as a model of how an ICS 314 project could be organized and executed. Here are several videos that walks you through various aspects of the system:
-
-## Example Enhancements
+#### Example Enhancements
 
 After implementing the basic functionality, here are ideas for more advanced features:
 
@@ -127,8 +163,8 @@ After implementing the basic functionality, here are ideas for more advanced fea
 * Give alerts for new menu items
 * Suggest restaurants based on budgets
 
-## Contact Us
-Meet the Team!
+
+## About Us
 ### [Keenan Lee](https://knolee.github.io/)
 
 **What do you want to get out of this final project (besides the obvious, which is a good grade for the course)? Are there any skills you want to practice or improve at through this project experience?**
