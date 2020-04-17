@@ -39,19 +39,19 @@ This section provides a walkthrough of the yUHmmy user interface and its capabil
 The landing page is presented to users when they visit the top-level URL to the site. It is the first page that students view when they visit the site and provides an introduction to the capabilities of the site:
 ![](doc/landingM1.png)
 
-### [Registration Page](https://yuhmmy.meteorapp.com/#/)signup)
+### [Registration Page](https://yuhmmy.meteorapp.com/#/signup)
 The registration page is presented to users prompting new visitors to create an account on our site, in order to access the full features of our projects:
 ![](doc/signupM1.png)
 
-### [Login Page](https://yuhmmy.meteorapp.com/#/)signin)
+### [Login Page](https://yuhmmy.meteorapp.com/#/signin)
 The login page is presented to users who already registered for an account, to access the site:
 ![](doc/loginM1.png)
 
-### [Menu Page](https://yuhmmy.meteorapp.com/#/)menu)
+### [Menu Page](https://yuhmmy.meteorapp.com/#/menu)
 The menu page is presented to users so that they may see what food items are available for purchase, as well their prospective prices:
 ![](doc/menuM1.png)
 
-### [Restaurant Order Page](https://yuhmmy.meteorapp.com/#/)order)
+### [Restaurant Order Page](https://yuhmmy.meteorapp.com/#/order)
 The restaurant order page is presented to admins so that they may see what items have been ordered by the customers:
 ![](doc/order.png)
 
