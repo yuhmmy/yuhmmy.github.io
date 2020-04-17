@@ -16,7 +16,13 @@
 
 **Running deployment of our system on Galaxy:** <a href="https://yuhmmy.meteorapp.com/">yUHmmy on Galaxy</a>
 
-It is a known fact that good restaurants and bars usually have long wait times in respect to service response time, and it is also a terrible idea to keep hungry people waiting. Our mobile point of sales platform eliminates the waiting game for customers by automating the process and putting it online, so if you have a mobile device you never have to track down a waitress ever again, or awkwardly try to get the bartenders attention at Manoa Gardens. Furthermore as long as the customer has a debit card on their account they can pay for their services and tip and waitress without even reaching for their wallet. This makes the ordering process less daunting and more convenient for both patrons and the business establishment.
+It is a known fact that good restaurants and bars usually have long wait times in respect to service response time, and it is also a terrible idea to keep hungry people waiting. Our mobile point of sales platform eliminates the waiting game for customers by automating the process and putting it online, so if you have a mobile device you never have to track down a waitress ever again, or awkwardly try to get the bartenders attention at Manoa Gardens.
+
+* View available restaurants on campus and in the Manoa area
+* View menu items, descriptions, and prices at each food location
+* Search for the food you desire to find possible restaurants
+* Select which item you would like to order
+* Restaurant admin is notified of order and will bring food asap
 
 It illustrates various technologies useful to ICS software engineering students, including:
 
@@ -31,7 +37,8 @@ This project is similar to GrubHub such that users can order and pay for food on
 * Order and have your food brought to your table eliminating multiple trips for wait staff
 * The users can set limits on spending so they don’t overspend.
 * Order drinks or request services in restaurants
-The features above is intended to eliminate as much interaction between wait staff and customer. The goal is to make the customer feel like, their food appeared in front of them magically. This also allow the restaurant to spend more of their man power moving goods since that is what makes the money.
+
+The features above are intended to eliminate as much interaction between wait staff and customer. The goal is to make the customer feel like, their food appeared in front of them magically. This also allow the restaurant to spend more of their man power moving goods since that is what makes the money. Furthermore as long as the customer has a debit card on their account they can pay for their services and tip and waitress without even reaching for their wallet. This makes the ordering process less daunting and more convenient for both patrons and the business establishment.
 
 ## User Guide
 ***
@@ -57,6 +64,18 @@ The menu page is presented to users so that they may see what food items are ava
 The restaurant order page is presented to admins so that they may see what items have been ordered by the customers:
 ![](doc/order.png)
 
+### [Home Page](https://yuhmmy.meteorapp.com/#/)
+Users must login to access this site, which is similar to the landing page, but with access to the additional pages in the navigation bar
+![](doc/home.png)
+
+### [Sign Out Page](https://yuhmmy.meteorapp.com/#/Signout)
+The sign out page is presented to users who are finished accessing the site and wish to log out of their account.
+![](doc/outM1.png)
+
+
+#### Mockup Edit Menu Page
+This page will be presented to the admins so that they may edit what menu items are available for purchase by customers
+![](doc/EditMenu.png)
 
 ## Development History
 
