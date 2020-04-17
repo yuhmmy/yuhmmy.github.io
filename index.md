@@ -69,7 +69,7 @@ Users must login to access this site, which is similar to the landing page, but 
 ![](doc/home.png)
 
 ### [Sign Out Page](https://yuhmmy.meteorapp.com/#/Signout)
-The sign out page is presented to users who are finished accessing the site and wish to log out of their account.
+Users must have been signed in to access this site. The sign out page is presented to users who are finished accessing the site and wish to log out of their account.
 ![](doc/outM1.png)
 
 
