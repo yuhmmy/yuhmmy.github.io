@@ -14,6 +14,8 @@
 ***
 **GitHub organization associated with this project and all of its repositories:** <a href="https://github.com/yuhmmy">yUHmmy</a>
 
+**Running deployment of our system on Galaxy:** <a href="https://yuhmmy.meteorapp.com/">yUHmmy on Galaxy</a>
+
 It is a known fact that good restaurants and bars usually have long wait times in respect to service response time, and it is also a terrible idea to keep hungry people waiting. Our mobile point of sales platform eliminates the waiting game for customers by automating the process and putting it online, so if you have a mobile device you never have to track down a waitress ever again, or awkwardly try to get the bartenders attention at Manoa Gardens. Furthermore as long as the customer has a debit card on their account they can pay for their services and tip and waitress without even reaching for their wallet. This makes the ordering process less daunting and more convenient for both patrons and the business establishment.
 
 It illustrates various technologies useful to ICS software engineering students, including:
@@ -47,11 +49,11 @@ The registration page is presented to users prompting new visitors to create an 
 The login page is presented to users who already registered for an account, to access the site:
 ![](doc/loginM1.png)
 
-### [Menu Page](https://yuhmmy.meteorapp.com/#/menu)
+### [Menu Page](https://yuhmmy.meteorapp.com/#/Order)
 The menu page is presented to users so that they may see what food items are available for purchase, as well their prospective prices:
 ![](doc/menuM1.png)
 
-### [Restaurant Order Page](https://yuhmmy.meteorapp.com/#/order)
+### [Restaurant Order Page](https://yuhmmy.meteorapp.com/#/RestaurantOrder)
 The restaurant order page is presented to admins so that they may see what items have been ordered by the customers:
 ![](doc/order.png)
 
@@ -72,8 +74,6 @@ The following sections document the development history of yUHmmy.
 
 ### Milestone 1: Mockup development
 The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
-
-**Running deployment of our system on Galaxy:** <a href="https://yuhmmy.meteorapp.com/">yUHmmy on Galaxy</a>
 
 **M1 Project page, showing what issues were completed:** <a href="https://github.com/yuhmmy/yuhmmy/projects/1">yUHmmy M1 Project Page</a>
 
