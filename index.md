@@ -150,7 +150,7 @@ We are interested in your experience using yUHmmy!
 #### Milestone 3: Final Touches
 The goal of Milestone 3 is to clean up the code base and fix minor UI issues.
 
-#### Walkthrough Videos (Coming Soon)
+#### Walkthrough Videos
 yUHmmy is intended as a model of how an ICS 314 project could be organized and executed. There will be several videos that walks you through various aspects of the system
 
 #### Example Enhancements
