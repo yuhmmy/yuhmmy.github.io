@@ -15,13 +15,22 @@
 
 **Running deployment of our system on Galaxy:** <a href="https://yuhmmy.meteorapp.com/">yUHmmy on Galaxy</a>
 
-It is a known fact that good restaurants and bars usually have long wait times in respect to service response time, and it is also a terrible idea to keep hungry people waiting. Our mobile point of sales platform eliminates the waiting game for customers by automating the process and putting it online, so if you have a mobile device you never have to track down a waitress ever again, or awkwardly try to get the bartenders attention at Manoa Gardens.
+Never be hungry on campus again. It is a known fact that good restaurants and bars usually have long wait times in respect to service response time, and it is also a terrible idea to keep hungry people waiting. Our mobile point of sales platform eliminates the waiting game for customers by automating the process and putting it online, so if you have a mobile device you never have to wonder what restaurants are near you, or what food items are sold, and how much money you should bring. With the Covid-19 Pandemic among us, you may select what food items you would like to quickly pick up at restaurants.
 
 * View available restaurants on campus and in the Manoa area
-* View menu items, descriptions, and prices at each food location
-* Search for the food you desire to find possible restaurants
-* Select which item you would like to order
+* View items on the menu, food descriptions, and prices at each location
+* Search for the typr of food you desire to find possible restaurants
+* Select which items you would like to order
+* Create a profile page with food preferences and user information
 * Restaurant admin is notified of order and will bring food asap
+* Unsure what to eat? Click the "I'm feeling lucky" button
+
+At the completion of this project, the site will also provides code that implements a variety of useful design concepts, including:
+* Use of Meteor Methods to illustrate how to simplify implementation of multiple collection updates.
+* Use of Meteor Assets to initialize the database (helpful when initialization exceeds settings file size limits).
+* A simple Filter page to illustrate how to perform simple queries on the database and display the results.
+* Authentication using the built-in Meteor accounts package along with Sign Up and Sign In pages.
+* Use of indexes to enforce uniqueness of certain fields in the collections, enabling them to serve as primary keys.
 
 It illustrates various technologies useful to ICS software engineering students, including:
 
@@ -32,12 +41,7 @@ It illustrates various technologies useful to ICS software engineering students,
 
 ### Approach
 ***
-This project is similar to GrubHub such that users can order and pay for food on their mobile device and similarity ends there, the following is a list of things that make our platform great:
-* Order and have your food brought to your table eliminating multiple trips for wait staff
-* The users can set limits on spending so they don’t overspend.
-* Order drinks or request services in restaurants
-
-The features above are intended to eliminate as much interaction between wait staff and customer. The goal is to make the customer feel like, their food appeared in front of them magically. This also allow the restaurant to spend more of their man power moving goods since that is what makes the money. Furthermore as long as the customer has a debit card on their account they can pay for their services and tip and waitress without even reaching for their wallet. This makes the ordering process less daunting and more convenient for both patrons and the business establishment.
+Users can order their food via a mobile device. The features above are intended to eliminate as much interaction between wait staff and customer, to prevent the possible spread of the virus. The goal is to make the customer feel like, their food appeared in front of them magically. This makes the ordering process less daunting and more convenient for both patrons and the business establishment.
 
 ## User Guide
 ***
@@ -55,10 +59,6 @@ The registration page is presented to users prompting new visitors to create an 
 The login page is presented to users who already registered for an account, to access the site:
 ![](doc/loginM1.png)
 
-### [Menu Page](https://yuhmmy.meteorapp.com/#/Order)
-The menu page is presented to users so that they may see what food items are available for purchase at the restaurant, as well their prospective prices:
-![](doc/menuM1.png)
-
 ### [Search Page](https://yuhmmy.meteorapp.com/#/Order)
 The search page is presented to users so that they may see what restaurants are available:
 ![](doc/search.png)
@@ -66,6 +66,10 @@ The search page is presented to users so that they may see what restaurants are 
 ### [Order Page via Search Page](https://yuhmmy.meteorapp.com/#/Order)
 By clicking the order button on each menu card, users may order the items they want from each restaurant
 ![](doc/orders.png)
+
+### [Menu Page](https://yuhmmy.meteorapp.com/#/Order)
+The menu page is presented to users so that they may see what food items are available for purchase at the restaurant, as well their prospective prices:
+![](doc/menuM1.png)
 
 ### [Profile Page](https://yuhmmy.meteorapp.com/#/RestaurantOrder)
 The profile page is where users can set their preferences:
@@ -82,58 +86,6 @@ The restaurant order page is presented to admins so that they may add their rest
 ### [Edit Restaurant Page](https://yuhmmy.meteorapp.com/#/edit)
 The restaurant order page is presented to admins so that they may edit their restaurant information on the site:
 ![](doc/edit.png)
-
-### [Home Page](https://yuhmmy.meteorapp.com/#/)
-Users must login to access this site, which is similar to the landing page, but with access to the additional pages in the navigation bar
-![](doc/home.png)
-
-### [Sign Out Page](https://yuhmmy.meteorapp.com/#/Signout)
-Users must have been signed in to access this site. The sign out page is presented to users who are finished accessing the site and wish to log out of their account.
-![](doc/outM1.png)
-
-
-#### Mockup Edit Menu Page
-This page will be presented to the admins so that they may edit what menu items are available for purchase by customers
-![](doc/EditMenu.png)
-
-## Development History
-
-The development process for yUHmmy conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314s20/modules/project-management/) practices. In a nutshell:
-
-* Development consists of a sequence of Milestones.
-* Each Milestone is specified as a set of tasks.
-* Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
-* Tasks should typically consist of work that can be completed in 2-4 days.
-* The work for each task is accomplished with a git branch named "issue-XX", where XX is replaced by the issue number.
-* When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
-* The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
-
-The following sections document the development history of yUHmmy.
-
-### Milestone 1: Mockup development
-The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
-
-**M1 Project page, showing what issues were completed:** <a href="https://github.com/yuhmmy/yuhmmy/projects/1">yUHmmy M1 Project Page</a>
-![](doc/M1.png)
-
-### Milestone 2: Data model development 
-The goal of Milestone 2 is to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the yUHmmy application.
-
-**M2 Project page, showing what issues were completed:** <a href="https://github.com/yuhmmy/yuhmmy/projects/2">yUHmmy M2 Project Page</a>
-![](doc/M2.png)
-
-### Milestone 3: Final Touches
-The goal of Milestone 3 is to clean up the code base and fix minor UI issues.
-**M3 Project page, showing what issues are to be addressed and completed:** <a href="https://github.com/yuhmmy/yuhmmy/projects/3">yUHmmy M2 Project Page</a>
-![](doc/M3.png)
-
-## Contact The Developers
-***
-We are a team of UH Manoa students currently enrolled in ICS 314!
-* [Keenan Lee](https://knolee.github.io/)
-* [ZJ Lin](https://z-j-lin.github.io/)
-* [Tina Loos](https://tinaloos.github.io/)
-* [Spencer Young](https://spjy.github.io/)
 
 ## Developer Guide
 ***
@@ -162,7 +114,6 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 ### Application Design
 yUHmmy is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in yUHmmy.
 
-### Data model
 ## Initialization
 The [config](https://github.com/bowfolios/yuhmmy/tree/master/config) directory is intended to hold settings files. The repository contains one file: config/settings.development.json.
 
@@ -181,11 +132,59 @@ ESLint should run without generating any errors.
 
 It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
 
+### From mockup to production
+yUHmmy is meant to illustrate the use of Meteor for developing an initial proof-of-concept prototype. For a production application, several additional security-related changes must be implemented:
+
+* Use of email-based password specification for users, and/or use of an alternative authentication mechanism.
+* Use of https so that passwords are sent in encrypted format.
+* Removal of the insecure package, and the addition of Meteor Methods to replace client-side DB updates.
+
+## Development History
+
+The development process for yUHmmy conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314s20/modules/project-management/) practices. In a nutshell:
+
+* Development consists of a sequence of Milestones.
+* Each Milestone is specified as a set of tasks.
+* Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
+* Tasks should typically consist of work that can be completed in 2-4 days.
+* The work for each task is accomplished with a git branch named "issue-XX", where XX is replaced by the issue number.
+* When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
+* The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
+
+The following sections document the development history of yUHmmy.
+
+### Milestone 1: Mockup development
+The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
+
+**M1 Project page, showing what issues were completed:** <a href="https://github.com/yuhmmy/yuhmmy/projects/1">yUHmmy M1 Project Page</a>
+![](doc/M1.png)
+
+### Milestone 2: Data model development 
+The goal of Milestone 2 is to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the yUHmmy application.
+
+**M2 Project page, showing what issues were completed:** <a href="https://github.com/yuhmmy/yuhmmy/projects/2">yUHmmy M2 Project Page</a>
+![](doc/M2new.png)
+
+### Milestone 3: Final Touches
+The goal of Milestone 3 is to clean up the code base and fix minor UI issues.
+
+**M3 Project page, showing what current issues are to be addressed and completed:** <a href="https://github.com/yuhmmy/yuhmmy/projects/4">yUHmmy M3 Project Page</a>
+![](doc/M3.png)
+
+## Contact The Developers
+***
+We are a team of UH Manoa students currently enrolled in ICS 314!
+* [Keenan Lee](https://knolee.github.io/)
+* [ZJ Lin](https://z-j-lin.github.io/)
+* [Tina Loos](https://tinaloos.github.io/)
+* [Spencer Young](https://spjy.github.io/)
+
 
 ### Coming Soon
 ***
 #### Community Feedback
 We are interested in your experience using yUHmmy!
+
 #### Milestone 3: Final Touches - Completed
 The goal of Milestone 3 is to clean up the code base and fix minor UI issues.
 
