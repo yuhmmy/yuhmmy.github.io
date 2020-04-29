@@ -45,7 +45,7 @@ Users can order their food via a mobile device. The features above are intended 
 
 ## User Guide
 ***
-This section provides a walkthrough of the yUHmmy user interface and its capabilities with up-to-date screen shots showing the state of the project, Click on the titles to link to the same pages running on Galaxy!
+This section provides a walkthrough of the yUHmmy user interface and its capabilities with up-to-date screen shots showing the state of the project, Click on the titles to link to the same pages running on Galaxy! Page descriptions with ///// in the beginning mean that the user must be signed in to access this page.
 
 ### [Landing Page](https://yuhmmy.meteorapp.com/#/)
 The landing page is presented to users when they visit the top-level URL to the site. It is the first page that students view when they visit the site and provides an introduction to the capabilities of the site:
@@ -59,32 +59,31 @@ The registration page is presented to users prompting new visitors to create an 
 The login page is presented to users who already registered for an account, to access the site:
 ![](doc/loginM1.png)
 
-### [Search Page](https://yuhmmy.meteorapp.com/#/Order)
-The search page is presented to users so that they may see what restaurants are available:
+### [Search Page](https://yuhmmy.meteorapp.com/#/search)
+///// The search page is presented to users so that they may see what restaurants are available near UH:
 ![](doc/search.png)
 
-### [Order Page via Search Page](https://yuhmmy.meteorapp.com/#/Order)
-By clicking the order button on each menu card, users may order the items they want from each restaurant
-![](doc/orders.png)
+### [Menu Page via Search Page](https://yuhmmy.meteorapp.com/#/menu/1)
+///// By clicking the order button on each menu card, users may view what food items are available for purchase at the restaurant, as well their prospective prices:
+![](doc/menu3.png)
 
-### [Menu Page](https://yuhmmy.meteorapp.com/#/Order)
-The menu page is presented to users so that they may see what food items are available for purchase at the restaurant, as well their prospective prices:
-![](doc/menuM1.png)
+///// After clicking the checkout button, users are taken to the following page, which assures them that their items are being prepared:
+![](doc/confirm.png)
 
-### [Profile Page](https://yuhmmy.meteorapp.com/#/RestaurantOrder)
-The profile page is where users can set their preferences:
+### [Profile Page](https://yuhmmy.meteorapp.com/#/profile)
+///// The profile page is where users can see their preferences and information:
 ![](doc/profile.png)
 
-### [Restaurant Order Page](https://yuhmmy.meteorapp.com/#/RestaurantOrder)
-The restaurant order page is presented to admins so that they may see what items have been ordered by the customers:
-![](doc/order.png)
+### [Restaurant Side Order Page](https://yuhmmy.meteorapp.com/#/restaurantorder)
+///// The restaurant order page is presented to admins so that they may see what items have been ordered by the customers:
+![](doc/rorder.png)
 
 ### [Add Restaurant Page](https://yuhmmy.meteorapp.com/#/add)
-The restaurant order page is presented to admins so that they may add their restaurant to the site:
+///// The restaurant order page is presented to admins so that they may add their restaurant to the site:
 ![](doc/add.png)
 
-### [Edit Restaurant Page](https://yuhmmy.meteorapp.com/#/edit)
-The restaurant order page is presented to admins so that they may edit their restaurant information on the site:
+### [Edit Restaurant Page](https://yuhmmy.meteorapp.com/#/edit/3)
+///// The restaurant order page is presented to admins so that they may edit their restaurant information on the site:
 ![](doc/edit.png)
 
 ## Developer Guide
