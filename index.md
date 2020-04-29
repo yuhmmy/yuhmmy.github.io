@@ -56,12 +56,32 @@ The login page is presented to users who already registered for an account, to a
 ![](doc/loginM1.png)
 
 ### [Menu Page](https://yuhmmy.meteorapp.com/#/Order)
-The menu page is presented to users so that they may see what food items are available for purchase, as well their prospective prices:
+The menu page is presented to users so that they may see what food items are available for purchase at the restaurant, as well their prospective prices:
 ![](doc/menuM1.png)
+
+### [Search Page](https://yuhmmy.meteorapp.com/#/Order)
+The search page is presented to users so that they may see what restaurants are available:
+![](doc/search.png)
+
+### [Order Page via Search Page](https://yuhmmy.meteorapp.com/#/Order)
+By clicking the order button on each menu card, users may order the items they want from each restaurant
+![](doc/orders.png)
+
+### [Profile Page](https://yuhmmy.meteorapp.com/#/RestaurantOrder)
+The profile page is where users can set their preferences:
+![](doc/profile.png)
 
 ### [Restaurant Order Page](https://yuhmmy.meteorapp.com/#/RestaurantOrder)
 The restaurant order page is presented to admins so that they may see what items have been ordered by the customers:
 ![](doc/order.png)
+
+### [Add Restaurant Page](https://yuhmmy.meteorapp.com/#/add)
+The restaurant order page is presented to admins so that they may add their restaurant to the site:
+![](doc/add.png)
+
+### [Edit Restaurant Page](https://yuhmmy.meteorapp.com/#/edit)
+The restaurant order page is presented to admins so that they may edit their restaurant information on the site:
+![](doc/edit.png)
 
 ### [Home Page](https://yuhmmy.meteorapp.com/#/)
 Users must login to access this site, which is similar to the landing page, but with access to the additional pages in the navigation bar
@@ -94,15 +114,18 @@ The following sections document the development history of yUHmmy.
 The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
 
 **M1 Project page, showing what issues were completed:** <a href="https://github.com/yuhmmy/yuhmmy/projects/1">yUHmmy M1 Project Page</a>
-
 ![](doc/M1.png)
 
 ### Milestone 2: Data model development 
 The goal of Milestone 2 is to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the yUHmmy application.
 
-**M2 Project page, showing what issues are to be addressed and completed:** <a href="https://github.com/yuhmmy/yuhmmy/projects/2">yUHmmy M2 Project Page</a>
-
+**M2 Project page, showing what issues were completed:** <a href="https://github.com/yuhmmy/yuhmmy/projects/2">yUHmmy M2 Project Page</a>
 ![](doc/M2.png)
+
+### Milestone 3: Final Touches
+The goal of Milestone 3 is to clean up the code base and fix minor UI issues.
+**M3 Project page, showing what issues are to be addressed and completed:** <a href="https://github.com/yuhmmy/yuhmmy/projects/3">yUHmmy M2 Project Page</a>
+![](doc/M3.png)
 
 ## Contact The Developers
 ***
@@ -161,11 +184,9 @@ It's significantly easier to do development with ESLint integrated directly into
 
 ### Coming Soon
 ***
-#### Milestone 2: Completed
-
 #### Community Feedback
 We are interested in your experience using yUHmmy!
-#### Milestone 3: Final Touches
+#### Milestone 3: Final Touches - Completed
 The goal of Milestone 3 is to clean up the code base and fix minor UI issues.
 
 #### Walkthrough Videos
