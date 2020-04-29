@@ -76,7 +76,7 @@ The login page is presented to users who already registered for an account, to a
 
 ### [Restaurant Side Order Page](https://yuhmmy.meteorapp.com/#/restaurantorder)
 ///// The restaurant order page is presented to admins so that they may see what items have been ordered by the customers:
-![](doc/rorder.png)
+![](doc/rorders.png)
 
 ### [Add Restaurant Page](https://yuhmmy.meteorapp.com/#/add)
 ///// The restaurant order page is presented to admins so that they may add their restaurant to the site:
