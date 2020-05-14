@@ -68,6 +68,7 @@ The search page is presented to users so that they may see what restaurants are 
 ### [I'm Feeling Hungry](https://yuhmmy.meteorapp.com/#/search)
 On the search page, user preferences are used to randomly generate a restaurant card that the user might enjoy eating at. This restaurant is one with currently available menu items that matches their prefered diet and prefered ethnic cuisine. Each time that the user presses the button, a new card appears, in coordination with their stated likes:
 ![](doc/3lucky.png)
+![](doc/hungry.mov)
 
 ### [Menu Page via Search Page](https://yuhmmy.meteorapp.com/#/menu/1)
 By clicking the order button on each menu card, users may view what food items are available for purchase at the restaurant, as well their prospective prices:
