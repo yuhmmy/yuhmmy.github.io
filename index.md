@@ -50,28 +50,31 @@ Users can find places to eat and order their food via a mobile device. The featu
 This section provides a walkthrough of the yUHmmy user interface and its capabilities with up-to-date screen shots showing the state of the project. Note that some features are for admins or vendors only. Users must login for full site capabilities.
 
 ### [Landing Page](https://yuhmmy.meteorapp.com/#/)
-The landing page is presented to users when they visit the top-level URL to the site. It is the first page that students view when they visit the site and provides an introduction to the capabilities of the site:
+The landing page is presented to users when they visit the top-level URL to the site. It is the first page that students view when they visit the site and provides an introduction to the capabilities of the site. This site helps visitors understand what the site is about. We had a dark-mode night theme and teal color blocked layout. There is also a call to action with the sign up button and description of the three main features of the application. 
+
+(Mild Special Sauce) - a slideshow of the top 5 take-out locations at UH Manoa during Covid-19 that loops on the second half of the screen, giving users suggestions on where to eat, based on what is popular with other students:
 ![](doc/3landing.png)
 
 ### [Registration Page](https://yuhmmy.meteorapp.com/#/signup)
-The registration page is presented to users prompting new visitors to create an account on our site, in order to access the full features of our projects:
+The registration page is presented to users prompting new visitors to create an account on our site, in order to access the full features of our projects. Users click on the "Sign Up" button on the upper right corner of the navbar or the teal button on the landing page. You must register with a new email that is not already in the system to use this option. Users receive recommended restaurants on the search and profile page by choosing their dietary desires (Vegan, Vegetarian, Pescatarian, Meat) and favorites (Chinese, Korean, Thai, Local) from the dropdown options here. To have an accurate profile page, users should fill out all information accurately (email, password, first and last name, gender, age, and food preferences):
 ![](doc/3register.png)
 
 ### [Login Page](https://yuhmmy.meteorapp.com/#/signin)
-The login page is presented to users who already registered for an account, to access the site:
+The login page is presented to users who already registered for an account, to access the site. Users click on the "Sign In" button on the upper right corner of the navbar on the landing page. You must have been previously registered with the system to use this option and use your credentials. Users then click the teal "login" button or hit enter to be directed into the home page:
 ![](doc/3login.png)
 
 ### [Search Page](https://yuhmmy.meteorapp.com/#/search)
-The search page is presented to users so that they may see what restaurants are available near UH:
+The search page is presented to users so that they may see what eating places are available for food at UH Manoa and in the surrounding community. Users can scroll down the site to see an assourtment of restaurant options. Each card on the search page shows the logo of the restaurant, the restaurant name, address of the site (or location on campus), and a short description of their services or offerings. The "order" button on each cards allows students to view the menu and place an order from that restaurant. Users can use the search bar to type and find the place they are looking for. Alternatively, there are three dropdown options that allows students to search by cuisines(Chinese, Korean, Thai, Local), restrictions (Vegan, Vegetarian, Pescatarian, Meat), or locations.
+
+(Mild Special Sauce) - On the cards, users can select how many stars they would rate each restaurant, or click the "review" button to give more feedback.
 ![](doc/3search.png)
 
 ### [I'm Feeling Hungry](https://yuhmmy.meteorapp.com/#/search)
-On the search page, user preferences are used to randomly generate a restaurant card that the user might enjoy eating at. This restaurant is one with currently available menu items that matches their prefered diet and prefered ethnic cuisine. Each time that the user presses the button, a new card appears, in coordination with their stated likes:
-![](doc/3lucky.png)
-![](doc/hungry.mov)
+(HOT Special Sauce!) - On the search page, user preferences are used to randomly generate a restaurant card that the user will likely enjoy eating at when the teal "I'm Feeling Hungry" button is pressed. This restaurant is one with currently available menu items that matches the user's previously selected prefered diet (Vegan, Vegetarian, Pescatarian, Meat) and their prefered ethnic cuisine (Chinese, Korean, Thai, Local). Each time that the user presses the button, a new card appears, in coordination with their stated likes. This ensures that users have a high probability finding a restaurant that they will actually enjoy, and they might even find their new favorite eating spot:
+![](doc/m3hungry.png)
 
-### [Menu Page via Search Page](https://yuhmmy.meteorapp.com/#/menu/1)
-By clicking the order button on each menu card, users may view what food items are available for purchase at the restaurant, as well their prospective prices:
+### [Menu Page](https://yuhmmy.meteorapp.com/#/menu/9)
+By clicking the "order" button on each restaurant card on the seach page, users may view the selection of that food items are available for purchase at every restaurant, as well the prospective prices of each dish:
 ![](doc/3menu.ong.png)
 
 After clicking the checkout button, users are taken to the following page, which assures them that their items are being prepared:
