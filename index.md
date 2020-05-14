@@ -5,25 +5,27 @@
 * [Developer Guide](#developer-guide)
 * [Development History](#development-history)
 * [The Developers](#contact-the-developers)
+* [Community Feedback](#community-feedback)
 * [About the Team](#about-us)
 * [Acknowledgements](#acknowledgements)
-* [Coming Soon](#coming-soon)
+
 
 ## Overview
 ***
 **GitHub organization associated with this project and all of its repositories:** <a href="https://github.com/yuhmmy">yUHmmy</a>
 
-**Running deployment of our system on Galaxy:** <a href="https://yuhmmy.meteorapp.com/">yUHmmy on Galaxy</a>
-
 Never be hungry on campus again. It is a known fact that good restaurants and bars usually have long wait times in respect to service response time, and it is also a terrible idea to keep hungry people waiting. Our mobile point of sales platform eliminates the waiting game for customers by automating the process and putting it online, so if you have a mobile device you never have to wonder what restaurants are near you, or what food items are sold, and how much money you should bring. With the Covid-19 Pandemic among us, you may select what food items you would like to quickly pick up at restaurants.
 
 * View available restaurants on campus and in the Manoa area
 * View items on the menu, food descriptions, and prices at each location
-* Search for the typr of food you desire to find possible restaurants
-* Select which items you would like to order
+* Search for the type of food you desire and find possible restaurants
+* Order the food items that you are craving
 * Create a profile page with food preferences and user information
+* Rate restaurants with stars and provide your written feedback
+* Integrated map functionality to discover top Manoa food locations
 * Restaurant admin is notified of order and will bring food asap
-* Unsure what to eat? Click the "I'm feeling lucky" button
+* The "I'm feeling hungry" button suggests where to eat, based on your preferences
+* Today’s top picks slideshow on homepage
 
 At the completion of this project, the site will also provides code that implements a variety of useful design concepts, including:
 * Use of Meteor Methods to illustrate how to simplify implementation of multiple collection updates.
@@ -41,50 +43,64 @@ It illustrates various technologies useful to ICS software engineering students,
 
 ### Approach
 ***
-Users can order their food via a mobile device. The features above are intended to eliminate as much interaction between wait staff and customer, to prevent the possible spread of the virus. The goal is to make the customer feel like, their food appeared in front of them magically. This makes the ordering process less daunting and more convenient for both patrons and the business establishment.
+Users can find places to eat and order their food via a mobile device. The features above are intended to eliminate as much interaction between wait staff and customer, to prevent the possible spread of the virus. The goal is to make the customer feel like, their food appeared in front of them magically. This makes the ordering process less daunting and more convenient for both patrons and the business establishment.
 
 ## User Guide
 ***
-This section provides a walkthrough of the yUHmmy user interface and its capabilities with up-to-date screen shots showing the state of the project, Click on the titles to link to the same pages running on Galaxy! Page descriptions with ///// in the beginning mean that the user must be signed in to access this page.
+This section provides a walkthrough of the yUHmmy user interface and its capabilities with up-to-date screen shots showing the state of the project. Note that some features are for admins or vendors only. Users must login for full site capabilities.
 
 ### [Landing Page](https://yuhmmy.meteorapp.com/#/)
 The landing page is presented to users when they visit the top-level URL to the site. It is the first page that students view when they visit the site and provides an introduction to the capabilities of the site:
-![](doc/landingM1.png)
+![](doc/3landing.png)
 
 ### [Registration Page](https://yuhmmy.meteorapp.com/#/signup)
 The registration page is presented to users prompting new visitors to create an account on our site, in order to access the full features of our projects:
-![](doc/signupM1.png)
+![](doc/3register.png)
 
 ### [Login Page](https://yuhmmy.meteorapp.com/#/signin)
 The login page is presented to users who already registered for an account, to access the site:
-![](doc/loginM1.png)
+![](doc/3login.png)
 
 ### [Search Page](https://yuhmmy.meteorapp.com/#/search)
-///// The search page is presented to users so that they may see what restaurants are available near UH:
-![](doc/search.png)
+The search page is presented to users so that they may see what restaurants are available near UH:
+![](doc/3searchup.png)
+![](doc/3search.png)
+
+### [I'm Feeling Hungry](https://yuhmmy.meteorapp.com/#/search)
+On the search page, user preferences are used to randomly generate a restaurant card that the user might enjoy eating at. This restaurant is one with currently available menu items that matches their prefered diet and prefered ethnic cuisine. Each time that the user presses the button, a new card appears, in coordination with their stated likes:
+![](doc/3lucky.png)
 
 ### [Menu Page via Search Page](https://yuhmmy.meteorapp.com/#/menu/1)
-///// By clicking the order button on each menu card, users may view what food items are available for purchase at the restaurant, as well their prospective prices:
-![](doc/menu3.png)
+By clicking the order button on each menu card, users may view what food items are available for purchase at the restaurant, as well their prospective prices:
+![](doc/3menu.ong.png)
 
-///// After clicking the checkout button, users are taken to the following page, which assures them that their items are being prepared:
-![](doc/confirm.png)
+After clicking the checkout button, users are taken to the following page, which assures them that their items are being prepared:
+![](doc/3orderconfirmed.png)
+
+### [Add Menu Item Page](https://yuhmmy.meteorapp.com/#/menu/1)
+By clicking on their restaurant card, vendors can add fill out the form to add food items to their chosen selection of available menu items for that day:
+![](doc/menuAdd.png)
+
+### [Review Restaurant Page](https://yuhmmy.meteorapp.com/#/review)
+The restaurant review page is where users provide their feedback to restaurants on how their eating experience was:
+![](doc/3review.png)
 
 ### [Profile Page](https://yuhmmy.meteorapp.com/#/profile)
-///// The profile page is where users can see their preferences and information:
-![](doc/profile.png)
+The profile page is where users can see their preferences and information:
+![](doc/3profile.png)
+![](doc/3adminprofile.png)
 
 ### [Restaurant Side Order Page](https://yuhmmy.meteorapp.com/#/restaurantorder)
-///// The restaurant order page is presented to admins so that they may see what items have been ordered by the customers:
-![](doc/rorders.png)
+The restaurant order page is presented to admins so that they may see what items have been ordered by the customers:
+![](doc/3queue.png)
 
 ### [Add Restaurant Page](https://yuhmmy.meteorapp.com/#/add)
-///// The restaurant order page is presented to admins so that they may add their restaurant to the site:
-![](doc/add.png)
+The restaurant order page is presented to admins so that they may add their restaurant to the site:
+![](doc/3addrestaurant.png)
 
 ### [Edit Restaurant Page](https://yuhmmy.meteorapp.com/#/edit/3)
-///// The restaurant order page is presented to admins so that they may edit their restaurant information on the site:
-![](doc/edit.png)
+The restaurant order page is presented to admins so that they may edit their restaurant information on the site:
+![](doc/3editrestaurant.png)
 
 ## Developer Guide
 ***
@@ -165,10 +181,27 @@ The goal of Milestone 2 is to implement the data model: the underlying set of Mo
 ![](doc/m2new.png)
 
 ### Milestone 3: Final Touches
-The goal of Milestone 3 is to clean up the code base and fix minor UI issues.
+The goal of Milestone 3 was to clean up the code base and fix minor UI issues.
 
-**M3 Project page, showing what current issues are to be addressed and completed:** <a href="https://github.com/yuhmmy/yuhmmy/projects/4">yUHmmy M3 Project Page</a>
-![](doc/m3.png)
+**M3 Project page, showing what issues were completed:** <a href="https://github.com/yuhmmy/yuhmmy/projects/4">yUHmmy M3 Project Page</a>
+![](doc/3m3.png)
+
+**Running deployment of our system on Galaxy:** <a href="https://yuhmmy.meteorapp.com/">yUHmmy on Galaxy</a>
+* note: our Galaxy subscription ends the night of 05/13/2020
+
+### Community Feedback
+***
+We asked five UH community members (not from ICS 314) to try out our system on Meteor (before the subscription ended and prior to final touches) This is the feedback they provided:
+
+"This website is a good competitor to delivery services such as UberEats and DoorDash. It has the same functions as these services. I can see when my food is being prepared and finished. I can also see some of the nearest restaurants and food places in my area. One of the cool things I like about the website is that there is a tab where I can see google maps. Here, I can have a birds eye view of the restaurants near me and I can see the website associated with the restaurant. They also include on-campus food trucks. 5 star" -DM
+
+"I like the layout, it is generally understandable. However, some of the functions are confusing. I liked the map, how you order and the landing page. I think you should make it so you have a page to display all of my orders from any location. Overall, it is very sleek and would use it if polished. Also, I would need a place to input my money data, so probably a secure transation thing a ma bob." -WC
+
+"The website was nice and organized.  The UI was smooth and easy to use.  I liked the order page where it tells you the status of your food." - TY
+
+"The website was awesome and had many food options to choose from.  A variety of food places that range from UH campus to local favorites that are around the area. DAH BEST FOOD APP. CHEEHOO!" FG
+
+"In general, I think the UI is pretty clean although not entirely intuitive. 3/10." - KL
 
 ## Contact The Developers
 ***
@@ -177,28 +210,6 @@ We are a team of UH Manoa students currently enrolled in ICS 314!
 * [ZJ Lin](https://z-j-lin.github.io/)
 * [Tina Loos](https://tinaloos.github.io/)
 * [Spencer Young](https://spjy.github.io/)
-
-
-### Coming Soon
-***
-#### Community Feedback
-We are interested in your experience using yUHmmy!
-
-#### Milestone 3: Final Touches - Completed
-The goal of Milestone 3 is to clean up the code base and fix minor UI issues.
-
-#### Walkthrough Videos
-yUHmmy is intended as a model of how an ICS 314 project could be organized and executed. There will be several videos that walks you through various aspects of the system
-
-#### Example Enhancements
-
-After implementing the basic functionality, here are ideas for more advanced features:
-
-* Restaurant Suggestions based on previous orders using machine learning
-* Able to provide party hot spots based on number of people at restaurants or bars
-* Ratings and reviews for restaurants
-* Give alerts for new menu items
-* Suggest restaurants based on budgets
 
 
 ## About Us
