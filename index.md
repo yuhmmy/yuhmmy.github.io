@@ -27,7 +27,7 @@ Never be hungry on campus again. It is a known fact that good restaurants and ba
 * The "I'm feeling hungry" button suggests where to eat, based on your preferences
 * Today’s top picks slideshow on homepage
 
-At the completion of this project, the site will also provides code that implements a variety of useful design concepts, including:
+At the completion of this project, the site will also provide code that implements a variety of useful design concepts, including:
 * Use of Meteor Methods to illustrate how to simplify implementation of multiple collection updates.
 * Use of Meteor Assets to initialize the database (helpful when initialization exceeds settings file size limits).
 * A simple Filter page to illustrate how to perform simple queries on the database and display the results.
@@ -64,17 +64,17 @@ The login page is presented to users who already registered for an account, to a
 ![](doc/3login.png)
 
 ### [Search Page](https://yuhmmy.meteorapp.com/#/search)
-The search page is presented to users so that they may see what eating places are available for food at UH Manoa and in the surrounding community. Users can scroll down the site to see an assourtment of restaurant options. Each card on the search page shows the logo of the restaurant, the restaurant name, address of the site (or location on campus), and a short description of their services or offerings. The "order" button on each cards allows students to view the menu and place an order from that restaurant. Users can use the search bar to type and find the place they are looking for. Alternatively, there are three dropdown options that allows students to search by cuisines(Chinese, Korean, Thai, Local), restrictions (Vegan, Vegetarian, Pescatarian, Meat), or locations.
+The search page is presented to users so that they may see what eating places are available for food at UH Manoa and in the surrounding community. Users can scroll down the site to see an assortment of restaurant options. Each card on the search page shows the logo of the restaurant, the restaurant name, address of the site (or location on campus), and a short description of their services or offerings. The "order" button on each card allows students to view the menu and place an order from that restaurant. Users can use the search bar to type and find the place they are looking for. Alternatively, there are three dropdown options that allows students to search by cuisines(Chinese, Korean, Thai, Local), restrictions (Vegan, Vegetarian, Pescatarian, Meat), or locations.
 
 (Mild Special Sauce) - On the cards, users can select how many stars they would rate each restaurant, or click the "review" button to be redirected to give more feedback on the restaurant review page.
 ![](doc/3search.png)
 
 ### [I'm Feeling Hungry](https://yuhmmy.meteorapp.com/#/search)
-(HOT Special Sauce) - On the search page, user preferences are used to randomly generate a restaurant card that the user will likely enjoy eating at when the teal "I'm Feeling Hungry" button is pressed. This restaurant is one with currently available menu items that matches the user's previously selected prefered diet (Vegan, Vegetarian, Pescatarian, Meat) and their prefered ethnic cuisine (Chinese, Korean, Thai, Local). Each time that the user presses the button, a new card appears, in coordination with their stated likes. This ensures that users have a high probability finding a restaurant that they will actually enjoy, and they might even find their new favorite eating spot:
+(HOT Special Sauce) - On the search page, user preferences are used to randomly generate a restaurant card that the user will likely enjoy eating at when the teal "I'm Feeling Hungry" button is pressed. This restaurant is one with currently available menu items that matches the user's previously selected preferred diet (Vegan, Vegetarian, Pescatarian, Meat) and their preferred ethnic cuisine (Chinese, Korean, Thai, Local). Each time that the user presses the button, a new card appears, in coordination with their stated likes. This ensures that users have a high probability finding a restaurant that they will actually enjoy, and they might even find their new favorite eating spot:
 ![](doc/m3hungry.png)
 
 ### [Menu Page](https://yuhmmy.meteorapp.com/#/menu/9)
-By clicking the "order" button on every restaurant card on the seach page, users may view the selection of that food items are currently available for purchase. On all of the item cards, users can find the name of the dish, the prospective price, the image, and a short description of the ingredients or details of the dish. If a user wants to order that item, they will click the + (white plus icon) on the top right corner of the card.
+By clicking the "order" button on every restaurant card on the search page, users may view the selection of that food items are currently available for purchase. On all of the item cards, users can find the name of the dish, the prospective price, the image, and a short description of the ingredients or details of the dish. If a user wants to order that item, they will click the + (white plus icon) on the top right corner of the card.
 
 (Mild Special Sauce) - In the "Your Order" feature on the right side of the page, users can view all of the items that they requested to purchase and the total cost of their order. Clicking the trash icon next to an item will removes that item from their order. Once they are ready to order, users click the teal "checkout" button:
 ![](doc/3menu.ong.png)
@@ -87,17 +87,17 @@ By clicking on the "add" button on their restaurant card, vendors can fill out t
 ![](doc/3addmenu.png)
 
 ### [Map Page](https://yuhmmy.meteorapp.com/#/map)
-(Mild Special Sauce) - The map page is where users can navigate and find restaurants at and around UH Manoa. The first part of the page is an interactive map feature using Google Maps. The top 5 take-out locations at UH Manoa during Covid-19 are included as clickable red pins on the map. Each pin shows the restaurant name and description. By clicking on "website" on the pop-up, users are redirected to the UH Manoa website of the restuarant to view its hours of opperation, menu, summary, phone number, and pictures of food options. Users can move the map around to see other dining places in the area, which are indicated by the orange pins. (As with Google Maps, users can view it in different modes, magnifications, or move the person for a street view). The second half of the map page shows pins of all of the eating places on campus (including vending machines and food trucks), with keys so users can see navigate by payment option, proximity, or food availability:
+(Mild Special Sauce) - The map page is where users can navigate and find restaurants at and around UH Manoa. The first part of the page is an interactive map feature using Google Maps. The top 5 take-out locations at UH Manoa during Covid-19 are included as clickable red pins on the map. Each pin shows the restaurant name and description. By clicking on "website" on the pop-up, users are redirected to the UH Manoa website of the restaurant to view its hours of operation, menu, summary, phone number, and pictures of food options. Users can move the map around to see other dining places in the area, which are indicated by the orange pins. (As with Google Maps, users can view it in different modes, magnifications, or move the person for a street view). The second half of the map page shows pins of all of the eating places on campus (including vending machines and food trucks), with keys so users can see navigate by payment option, proximity, or food availability:
 ![](doc/m3map.png)
 
 ### [Restaurant Review Page](https://yuhmmy.meteorapp.com/#/review)
-The restaurant review page is where users provide their feedback via a form, to restaurants, to describe how their eating experience was. Here users can user dropdown options select the number of stars (1-5) and rate their experience (bad, okay, good, great, perfect!). The name field is not required, so users may remain anonymmous if they choose to. The date of the visit is automatically filled out with the current date:
+The restaurant review page is where users provide their feedback via a form, to restaurants, to describe how their eating experience was. Here users can user dropdown options select the number of stars (1-5) and rate their experience (bad, okay, good, great, perfect!). The name field is not required, so users may remain anonymous if they choose to. The date of the visit is automatically filled out with the current date:
 ![](doc/3review.png)
 
 ### [Profile Page](https://yuhmmy.meteorapp.com/#/profile)
 The profile page is where users can see their preferences and information. Admins/vendors can view and edit the restaurants they own from this page.
 
-(Mild Special Sauce) - the "Recommended Restaurants for You" shows all of the restaurant cards with currently available menu items that matches the user's prefered diet (Vegan, Vegetarian, Pescatarian, Meat) and liked foods (Chinese, Korean, Thai, Local):
+(Mild Special Sauce) - the "Recommended Restaurants for You" shows all of the restaurant cards with currently available menu items that matches the user's preferred diet (Vegan, Vegetarian, Pescatarian, Meat) and liked foods (Chinese, Korean, Thai, Local):
 ![](doc/3profile.png)
 
 ### [Restaurant Side Order Page](https://yuhmmy.meteorapp.com/#/restaurantorder)
