@@ -63,7 +63,6 @@ The login page is presented to users who already registered for an account, to a
 
 ### [Search Page](https://yuhmmy.meteorapp.com/#/search)
 The search page is presented to users so that they may see what restaurants are available near UH:
-![](doc/3searchup.png)
 ![](doc/3search.png)
 
 ### [I'm Feeling Hungry](https://yuhmmy.meteorapp.com/#/search)
@@ -81,6 +80,10 @@ After clicking the checkout button, users are taken to the following page, which
 By clicking on their restaurant card, vendors can add fill out the form to add food items to their chosen selection of available menu items for that day:
 ![](doc/menuAdd.png)
 
+### [Map Page](https://yuhmmy.meteorapp.com/#/review)
+The restaurant map page is where users can use the map to find restaurants at and around UH Manoa:
+![](doc/m3map.png)
+
 ### [Review Restaurant Page](https://yuhmmy.meteorapp.com/#/review)
 The restaurant review page is where users provide their feedback to restaurants on how their eating experience was:
 ![](doc/3review.png)
@@ -88,7 +91,6 @@ The restaurant review page is where users provide their feedback to restaurants 
 ### [Profile Page](https://yuhmmy.meteorapp.com/#/profile)
 The profile page is where users can see their preferences and information:
 ![](doc/3profile.png)
-![](doc/3adminprofile.png)
 
 ### [Restaurant Side Order Page](https://yuhmmy.meteorapp.com/#/restaurantorder)
 The restaurant order page is presented to admins so that they may see what items have been ordered by the customers:
@@ -184,7 +186,7 @@ The goal of Milestone 2 is to implement the data model: the underlying set of Mo
 The goal of Milestone 3 was to clean up the code base and fix minor UI issues.
 
 **M3 Project page, showing what issues were completed:** <a href="https://github.com/yuhmmy/yuhmmy/projects/4">yUHmmy M3 Project Page</a>
-![](doc/3m3.png)
+![](doc/m3m3.png)
 
 **Running deployment of our system on Galaxy:** <a href="https://yuhmmy.meteorapp.com/">yUHmmy on Galaxy</a>
 * note: our Galaxy subscription ends the night of 05/13/2020
