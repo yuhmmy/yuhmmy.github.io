@@ -57,7 +57,7 @@ The landing page is presented to users when they visit the top-level URL to the 
 
 ### [Registration Page](https://yuhmmy.meteorapp.com/#/signup)
 The registration page is presented to users prompting new visitors to create an account on our site, in order to access the full features of our projects. Users click on the "Sign Up" button on the upper right corner of the navbar or the teal button on the landing page. You must register with a new email that is not already in the system to use this option. Users receive recommended restaurants on the search and profile page by choosing their dietary desires (Vegan, Vegetarian, Pescatarian, Meat) and favorites (Chinese, Korean, Thai, Local) from the dropdown options here. To have an accurate profile page, users should fill out all information accurately (email, password, first and last name, gender, age, and food preferences):
-![](doc/3register.png)
+![](doc/3reg.png)
 
 ### [Login Page](https://yuhmmy.meteorapp.com/#/signin)
 The login page is presented to users who already registered for an account, to access the site. Users click on the "Sign In" button on the upper right corner of the navbar on the landing page. You must have been previously registered with the system to use this option and use your credentials. Users then click the teal "login" button or hit enter to be directed into the home page:
@@ -95,10 +95,13 @@ The restaurant review page is where users provide their feedback via a form, to 
 ![](doc/3review.png)
 
 ### [Profile Page](https://yuhmmy.meteorapp.com/#/profile)
-The profile page is where users can see their preferences and information. Admins/vendors can view and edit the restaurants they own from this page.
+The profile page is where users can see their preferences and information. 
 
 (Mild Special Sauce) - the "Recommended Restaurants for You" shows all of the restaurant cards with currently available menu items that matches the user's preferred diet (Vegan, Vegetarian, Pescatarian, Meat) and liked foods (Chinese, Korean, Thai, Local):
 ![](doc/3profile.png)
+
+Admins/vendors can view and edit the restaurants they own and view orders in the queue from this page:
+![](doc/3admin.png)
 
 ### [Restaurant Side Order Page](https://yuhmmy.meteorapp.com/#/restaurantorder)
 The restaurant order page is presented to admins so that they may see what items have been ordered by the customers. This is accessed by clicking "Order" in the navbar or on the "queue" button on their restaurant card. Once a user selects their food items and clicks "checkout", their items are automatically put on the admin/vendor order site. The restaurant views the orders, and once a food item is ready for pick-up, they click "done" on the item, which removes it from the queue:
